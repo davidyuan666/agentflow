@@ -8,7 +8,6 @@ from datetime import datetime
 import os
 
 '''
-openai 官方库
 pip install python-dotenv
 '''
 from openai import OpenAI
@@ -52,3 +51,10 @@ def speech_to_text(speech_file_path):
     except Exception as e:
         print(f"An error occurred in speech_to_text: {e}")
         return None
+
+'''
+use flutter speech to text
+'''
+def local_speech_to_text():
+    pass
+

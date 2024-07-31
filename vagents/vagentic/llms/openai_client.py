@@ -12,7 +12,7 @@ import sys
 import time
 import traceback
 import openai
-from config import Config
+from config.Config import OpenAIkey
 def make_gpt_messages(query, system, history):
     msgs = list()
     if system:
@@ -40,7 +40,7 @@ class OpenAIClient(object):
     def __init__(self, model="gpt-3.5-turbo"):
         self.model = model
         openai.api_type = 'open_ai'
-        openai.api_key = Config.openai_key
+        openai.api_key = OpenAIkey
 
     def chat(self, query, history=list(), system="", temperature=0.0, stop="", *args, **kwargs):
         msgs = make_gpt_messages(query, system, history)

@@ -6,7 +6,7 @@
 
 
 class FastChatClient(object):
-    def __init__(self, model="kagentlms_baichuan2_13b_mat", host="localhost", port=8888):
+    def __init__(self, model="localmodel", host="localhost", port=8888):
         self.model = model
         self.host = host
         self.port = port

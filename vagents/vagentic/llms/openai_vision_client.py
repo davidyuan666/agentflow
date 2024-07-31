@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2024/7/25
 # @Author  : david
-# @Software: MUST
+# @Software: Vesync
 # @File    : openai_vision_client.py
 from openai import OpenAI
 import base64
@@ -38,7 +38,7 @@ print(response.choices[0])
 class VisionOpenAIClient:
     def __init__(self, model="gpt-3.5-turbo"):
         self.MODEL=model
-        self.OPENAI_API_KEY =  Config.openai_key
+        self.OPENAI_API_KEY =  KEY
         self._oai_client =OpenAI(api_key=self.OPENAI_API_KEY)
         self.all_history = []
         self.openai_chat_url = "https://api.openai.com/v1/chat/completions"
@@ -157,7 +157,7 @@ class VisionOpenAIClient:
 
 
     '''
-    参考 https://openai.com/api/pricing/  
+    https://openai.com/api/pricing/  
     gpt4o:
             US$5.00 /
             1M input tokens

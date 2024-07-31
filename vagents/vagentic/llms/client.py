@@ -11,7 +11,7 @@ class OpenAIClient:
         self.all_history = []
 
     '''
-    获取答复内容
+    get the message 
     '''
     def message_retrieval(self, response):
         """Retrieve the messages from the response."""
@@ -34,7 +34,6 @@ class OpenAIClient:
 
 
     '''
-    官网例子
     openai_response = client.chat.completions.create(
         model = 'gpt-3.5-turbo',
         messages = [{'role': 'user', 'content': prompt_1}]

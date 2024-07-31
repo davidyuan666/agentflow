@@ -9,7 +9,7 @@ import os
 
 
 '''
-function call的部分
+function call
 '''
 log_directory = "logs"
 if not os.path.exists(log_directory):
