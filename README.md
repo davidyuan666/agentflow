@@ -1,12 +1,12 @@
-# agentflow
+# vagentic
 The prototype for the Agent LLM (Language Learning Model) Framework
 
 ## Overview
-agentflow is designed to enhance the reasoning and retrieval capabilities of Language Learning Models (LLMs) by employing a system known as Retrieval Augmented Generation (RAG). This framework is aimed at developers looking to construct and evaluate robust LLM applications that leverage advanced retrieval techniques to augment natural language processing tasks.
+vagentic is designed to enhance the reasoning and retrieval capabilities of Language Learning Models (LLMs) by employing a system known as Retrieval Augmented Generation (RAG). This framework is aimed at developers looking to construct and evaluate robust LLM applications that leverage advanced retrieval techniques to augment natural language processing tasks.
 
 ## Framework
 
-agentflow provides tools for constructing and evaluating Retrieval Augmented Generation (RAG) systems and enhancing LLM inference and retrieval capabilities. The stack consists of:
+vagentic provides tools for constructing and evaluating Retrieval Augmented Generation (RAG) systems and enhancing LLM inference and retrieval capabilities. The stack consists of:
 
 - **Language:** Python
 - **Frameworks for LLMs:** OpenAI, Autogen
