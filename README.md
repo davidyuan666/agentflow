@@ -21,13 +21,14 @@ In RAG, when a user query is received, relevant documents or passages are retrie
 
 An agent in the context of agentflow refers to a component or model that acts autonomously to perform tasks such as data retrieval, information processing, and interaction handling in an LLM ecosystem. Agents are designed to operate in a decentralized and coordinated manner, enhancing the system's overall performance and flexibility.
 
-### 🚀 Workflow of agentflow
+### 🚀 Workflow of vagentic
 
-The workflow in agentflow involves several key steps:
+The workflow in vagentic involves several key steps:
 1. **Query Reception:** Receive and interpret user queries using natural language understanding.
 2. **Data Retrieval:** Employ agents to retrieve relevant information from the document store.
 3. **Response Generation:** Synthesize responses based on the retrieved data and the initial query.
 4. **Interaction and Feedback:** Use feedback from users to refine and improve the agents' performance.
+5. **Agent Prototype Design:**  This involves the design of the core components of an artificial intelligence agent, including the tools it uses, its memory structures, a vector database (vectordb), and template-based reasoning.
 
 ### 🛠️ Development
 
